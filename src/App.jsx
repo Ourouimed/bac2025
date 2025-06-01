@@ -61,6 +61,9 @@ const App = () => {
       >
         العودة
       </button>
+
+
+      <p className='text-center mt-5'>كل الحقوق محفوطة &copy;  <a href='https://ourouidev.vercel.app' target='_blank' className='text-cyan-500 font-bold'>ourouimed</a> {new Date().getFullYear()}</p>
     </div>
   );
 };
