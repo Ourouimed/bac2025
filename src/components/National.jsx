@@ -95,7 +95,7 @@ const National = () => {
         )}
         {branche !== null && (
           <button
-            className="bg-cyan-500 text-white px-4 py-2 rounded hover:bg-cyan-600 transition duration-300 cursor-pointer w-full"
+            className="w-full cursor-pointer mt-2 px-6 py-3 bg-cyan-600 hover:bg-cyan-700 active:bg-cyan-800 rounded-lg font-semibold shadow-md transition-colors duration-300"
             onClick={handleCalculateNotes}
           >
             احسب النتيجة

@@ -2,10 +2,10 @@ import { useState } from "react";
 
 const MoyenneBac = () => {
   const [notes, setNotes] = useState({
-    S1: null,
-    S2: null,
-    national: null,
-    regional: null,
+    S1: '',
+    S2: '',
+    national: '',
+    regional: '',
   });
   const [finalNote, setFinalNote] = useState(null);
   const [error, setError] = useState("");
@@ -33,12 +33,12 @@ const MoyenneBac = () => {
 
   return (
     <div className="text-white">
-      <h3 className="text-cyan-500 font-bold text-2xl text-center mb-4">
+      <h3 className="text-cyan-500 font-bold text-2xl text-center mb-2">
         المعدل العام للباكالوريا
       </h3>
 
       <div>
-        <div className="flex items-center gap-2 mb-4">
+        <div className="md:flex items-center gap-2 mb-2">
           <div className="flex-1">
             <label className="label">الدورة الأولى</label>
             <input
@@ -65,7 +65,7 @@ const MoyenneBac = () => {
           </div>
         </div>
 
-        <div className="flex items-center gap-2 mb-4">
+        <div className="md:flex items-center gap-2 mb-2">
           <div className="flex-1">
             <label className="label">الأمتحان الجهوي</label>
             <input
@@ -93,16 +93,15 @@ const MoyenneBac = () => {
         </div>
 
         {error && (
-          <p className="text-red-400 text-center mb-4 font-medium">{error}</p>
+          <p className="text-red-400 text-center mb-2 font-medium">{error}</p>
         )}
 
-        <button
-          className="bg-cyan-500 text-white px-4 py-2 rounded hover:bg-cyan-600 transition duration-300 cursor-pointer w-full"
-          onClick={handleCalculateNotes}
-        >
-          احسب النتيجة
-        </button>
-
+          <button
+            className="w-full cursor-pointer mt-2 px-6 py-3 bg-cyan-600 hover:bg-cyan-700 active:bg-cyan-800 rounded-lg font-semibold shadow-md transition-colors duration-300"
+            onClick={handleCalculateNotes}
+          >
+            احسب النتيجة
+          </button>
         {finalNote !== null && (
           <div className="text-center bg-slate-800 border border-cyan-500 p-4 rounded-lg mt-4 text-2xl font-bold text-cyan-300 shadow-inner">
             النتيجة: {finalNote}/20

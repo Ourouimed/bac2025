@@ -50,10 +50,20 @@ src/
 └── main.jsx
   </pre>
 
+  
+
+  <h2> صور المشروع</h2><br>
+  <img src='./public/assets/screenshot1.png' alt='screenshot 1'><br>
+  <img src='./public/assets/screenshot2.png' alt='screenshot 2'><br>
+  <img src='./public/assets/screenshot3.png' alt='screenshot 3'><br>
+
+  <p style='font-size:18px;'>
+    للمزيد , زر الموقع التالي <a href='https://bac2025.vercel.app/' target='_blank' >Live Demo</a>
+  </p>
+
   <h2>🙋‍♂️ المطور</h2>
   <p>
     تم تطوير هذا المشروع لمساعدة التلاميذ المغاربة على حساب معدلاتهم بشكل دقيق ومنظم. مرحباً بجميع الاقتراحات أو المساهمات على GitHub.
   </p>
-
 </body>
 </html>
