@@ -21,7 +21,7 @@ const SEG = ({ setNotes }) => {
 
   return (
     <div>
-      <div className="flex items-center gap-2 mb-4">
+      <div className="md:flex items-center gap-2 mb-2">
         <div className="flex-1">
           <label className="label">اللغة العربية </label>
           <input
@@ -49,7 +49,7 @@ const SEG = ({ setNotes }) => {
       </div>
 
 
-      <div className="flex items-center gap-2 mb-4">
+      <div className="md:flex items-center gap-2 mb-2">
         <div className="flex-1">
           <label className="label">التربية الاسلامية</label>
           <input

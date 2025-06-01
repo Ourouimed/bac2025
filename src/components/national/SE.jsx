@@ -23,7 +23,7 @@ const SE = ({ setNotes }) => {
 
   return (
     <div>
-      <div className="flex items-center gap-2 mb-4">
+      <div className="md:flex items-center gap-2 mb-2">
         <div className="flex-1">
           <label className="label">الإقتصاد العام والإحصاء (EGS)</label>
           <input
@@ -50,7 +50,7 @@ const SE = ({ setNotes }) => {
         </div>
       </div>
 
-      <div className="mb-4">
+      <div className="mb-2">
         <label className="label">المحاسبة والرياضيات المالية (Compta)</label>
         <input
           type="number"
@@ -63,7 +63,7 @@ const SE = ({ setNotes }) => {
         />
       </div>
 
-      <div className="mb-4">
+      <div className="mb-2">
         <label className="label">الإقتصاد والتنظيم الإداري للمقاولات (EOAE)</label>
         <input
           type="number"
@@ -76,7 +76,7 @@ const SE = ({ setNotes }) => {
         />
       </div>
 
-      <div className="flex items-center gap-2 mb-4">
+      <div className="md:flex items-center gap-2 mb-2">
         <div className="flex-1">
           <label className="label">اللغة الأجنبية الثانية</label>
           <input

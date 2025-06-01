@@ -20,7 +20,7 @@ const ST = ({ setNotes }) => {
 
   return (
     <div>
-        <div className="mb-4">
+        <div className="mb-2">
           <label className="label">اللغة الاجنبية الاولى</label>
           <input
             type="number"
@@ -33,7 +33,7 @@ const ST = ({ setNotes }) => {
           />
         </div>
 
-        <div className="flex items-center gap-2 mb-4">
+        <div className="md:flex items-center gap-2 mb-2">
 
         
         <div className="flex-1">
