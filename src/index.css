@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+
+.input-select {
+    @apply border-2 border-slate-700 w-full rounded-md p-3 bg-slate-800 text-white focus:outline-none transition-all duration-300 focus:border-cyan-500
+}
+
+.label {
+    @apply block mb-2 text-sm font-medium text-slate-300
+}
